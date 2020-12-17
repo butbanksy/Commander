@@ -32,10 +32,10 @@ namespace Commander.Data
             return new Command()
             {
                 HowTo = "Boil an egg",
-                Id = 1,
+                Id = 3,
                 Line = "boil egg",
                 Platform = "Mac OS X"
-            };
+            };    
         }
     }
 }
