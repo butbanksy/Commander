@@ -10,6 +10,13 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commander.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include" />
+        <e p="Data" t="Include">
+          <e p="ICommanderRepository.cs" t="Include" />
+          <e p="MockCommanderRepository.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Command.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
