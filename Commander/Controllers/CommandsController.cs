@@ -10,21 +10,25 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        //TODO: Add dependancy injection
-        private readonly MockCommanderRepository _repository = new MockCommanderRepository();
+        private readonly ICommanderRepository _commanderRepository;
 
+        public CommandsController(ICommanderRepository commanderRepository)
+        {
+            _commanderRepository = commanderRepository;
+        }
+        
         //GET api/commands
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetCommands()
         {
-            return Ok(_repository.GetAllCommands());
+            return Ok(_commanderRepository.GetAllCommands());
         }
 
         //GET  api/commands/{id}
         [HttpGet("{id}")]
         public ActionResult<Command> GetCommandById(int id)
         {
-            return Ok(_repository.GetCommandById(id));
+            return Ok(_commanderRepository.GetCommandById(id));
         }
     }
 }

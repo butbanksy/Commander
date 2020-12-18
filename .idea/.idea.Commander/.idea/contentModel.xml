@@ -9,7 +9,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commander.csproj" t="IncludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="CommandsController.cs" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="ICommanderRepository.cs" t="Include" />
           <e p="MockCommanderRepository.cs" t="Include" />

@@ -9,11 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7c1d172-5f15-430d-bc6d-cad8357310fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Commander/Data/ICommanderRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commander/Data/MockCommanderRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commander/Models/Command.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Commander/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Commander/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Commander/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Commander/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commander/Controllers/CommandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Commander/Controllers/CommandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commander/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Commander/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Commander/Models/Command.cs" />
         <option value="$PROJECT_DIR$/Commander/Data/ICommanderRepository.cs" />
+        <option value="$PROJECT_DIR$/Commander/Controllers/Command.cs" />
+        <option value="$PROJECT_DIR$/Commander/Controllers/CommandController.cs" />
         <option value="$PROJECT_DIR$/Commander/Data/MockCommanderRepository.cs" />
+        <option value="$PROJECT_DIR$/Commander/Startup.cs" />
+        <option value="$PROJECT_DIR$/Commander/Controllers/CommandsController.cs" />
       </list>
     </option>
   </component>
@@ -47,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Commander">
@@ -91,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607048968244</updated>
       <workItem from="1607049009218" duration="1712000" />
-      <workItem from="1608232008698" duration="923000" />
+      <workItem from="1608232008698" duration="3851000" />
+      <workItem from="1608251651279" duration="1364000" />
     </task>
     <servers />
   </component>
@@ -116,13 +120,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="0" key="RiderGenerateDialog" timestamp="1608232889833">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="606" y="0" key="RiderGenerateDialog" timestamp="1608253137006">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="606" y="0" key="RiderGenerateDialog/-1366.286.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1608253137006" />
     <state x="493" y="0" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1608232889833" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1608232280987">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1608233415256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608232280987" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608233415256" />
+    <state x="92" y="92" width="1496" height="826" key="VCS.FileHistoryDialog" timestamp="1608252863399">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="VCS.FileHistoryDialog/-1366.286.1366.728/0.0.1680.1010@0.0.1680.1010" timestamp="1608252863399" />
   </component>
 </project>
