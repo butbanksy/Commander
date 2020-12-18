@@ -37,5 +37,15 @@ namespace Commander.Data
                 Platform = "Mac OS X"
             };    
         }
+
+        public void CreateCommand(Command command)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
