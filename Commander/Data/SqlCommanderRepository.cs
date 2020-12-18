@@ -35,6 +35,11 @@ namespace Commander.Data
             
         }
 
+        public void UpdateCommand(Command command)
+        {
+            
+        }
+
         public bool SaveChanges()
         {
             return (_commanderContext.SaveChanges() >= 0);

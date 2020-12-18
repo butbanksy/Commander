@@ -4,6 +4,7 @@ using Commander.Data;
 using Commander.DTOs;
 using Commander.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging.Abstractions;
 
 namespace Commander.Controllers
 {
@@ -53,6 +54,23 @@ namespace Commander.Controllers
 
             var commandReadDto = _mapper.Map<CommandReadDto>(command);
             return CreatedAtRoute("GetCommandById", new {Id = commandReadDto.Id}, commandReadDto);
+        }
+
+        //PUT api/commands/{id}
+        [HttpPut("{id}")]
+        public ActionResult UpdateCommand(int id, CommandCreateDto commandCreateDto)
+        {
+            var commandById = _commanderRepository.GetCommandById(id);
+            if (commandById == null)
+            {
+                return NotFound();
+            }
+
+            _mapper.Map(commandCreateDto, commandById);
+            _commanderRepository.UpdateCommand(commandById);
+            _commanderRepository.SaveChanges();
+            
+            return Ok(commandById);
         }
     }
 }
